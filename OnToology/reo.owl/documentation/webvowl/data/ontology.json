@@ -1,0 +1,2473 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "de", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://www.w3id.org/def/reo" ],
+    "title" : {
+      "undefined" : "Real Estate Ontology"
+    },
+    "iri" : "https://www.w3id.org/def/reo",
+    "version" : "0.0.1",
+    "author" : [ "Tim Fock" ],
+    "comments" : {
+      "undefined" : "This ontology describes real estate using a controlled vocabulary based on a dataset from a prop-tech company. It is aimed at the german market and models some concepts only valid in Germany (e.g., energy pass)."
+    },
+    "other" : {
+      "licence" : [ {
+        "identifier" : "licence",
+        "language" : "undefined",
+        "value" : "http://purl.org/NET/rdflicense/cc-by4.0",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Tim Fock",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.0.1",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Real Estate Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://www.w3id.org/def/reo#UsageType",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Nutzungsart",
+      "IRI-based" : "UsageType"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#TEMPORARY_LIVING",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Zeitweiliges Wohnen",
+        "IRI-based" : "TEMPORARY_LIVING"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#LIVING",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Wohnen",
+        "IRI-based" : "LIVING"
+      }
+    } ],
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#EnergyPass",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Energieausweis",
+      "IRI-based" : "EnergyPass"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#NOT_NEEDED",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "nicht benötigt",
+        "IRI-based" : "NOT_NEEDED"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#PRESENT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "vorhanden",
+        "IRI-based" : "PRESENT"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#NOT_PRESENT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "nicht vorhanden",
+        "IRI-based" : "NOT_PRESENT"
+      }
+    } ],
+    "id" : "27",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#RealEstateType",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Immobilientyp",
+      "IRI-based" : "RealEstateType"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#HOUSE",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Haus",
+        "IRI-based" : "HOUSE"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#FLAT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Wohnung",
+        "IRI-based" : "FLAT"
+      }
+    } ],
+    "id" : "33",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#Condition",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Zustand",
+      "IRI-based" : "Condition"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#DRAFTED",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "projektiert",
+        "IRI-based" : "DRAFTED"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#FIRSTAFTERREFURBISHED",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Erstbezug nach Sanierung",
+        "IRI-based" : "FIRSTAFTERREFURBISHED"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#CORED",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "entkernt",
+        "IRI-based" : "CORED"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#FULLYRENOVATED",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "vollständig renoviert",
+        "IRI-based" : "FULLYRENOVATED"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#REFURBISHED",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "saniert",
+        "IRI-based" : "REFURBISHED"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#FRAMING",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Rohbau",
+        "IRI-based" : "FRAMING"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#NEW",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Erstbezug",
+        "IRI-based" : "NEW"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#NEAT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "gepflegt",
+        "IRI-based" : "NEAT"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#DERELICT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "baufällig",
+        "IRI-based" : "DERELICT"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#NEEDRENOVATING",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "renovierungsbedürftig",
+        "IRI-based" : "NEEDRENOVATING"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#STREAMLINED",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "modernisiert",
+        "IRI-based" : "STREAMLINED"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#DEMOLITION",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Abrissobjekt",
+        "IRI-based" : "DEMOLITION"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#LIKENEW",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "neuwertig",
+        "IRI-based" : "LIKENEW"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#ASAGREED",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "nach Vereinbarung",
+        "IRI-based" : "ASAGREED"
+      }
+    } ],
+    "id" : "23",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#ApartmentType",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Wohnungstyp",
+      "IRI-based" : "ApartmentType"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#HALF_BASEMENT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Souterrain",
+        "IRI-based" : "HALF_BASEMENT"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#ROOF_STOREY",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Dachgeschosswohnung",
+        "IRI-based" : "ROOF_STOREY"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#MAISONETTE",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Maisonette",
+        "IRI-based" : "MAISONETTE"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#RAISED_GROUND_FLOOR",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Hochparterre",
+        "IRI-based" : "RAISED_GROUND_FLOOR"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#TERRACED_FLAT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Terrassenwohnung",
+        "IRI-based" : "TERRACED_FLAT"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#GROUND_FLOOR",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Erdgeschosswohnung",
+        "IRI-based" : "GROUND_FLOOR"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#LOFT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Loft",
+        "IRI-based" : "LOFT"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#APARTMENT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Wohnung",
+        "IRI-based" : "APARTMENT"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#PENTHOUSE",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Penthouse",
+        "IRI-based" : "PENTHOUSE"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#OTHER",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "sonstige",
+        "IRI-based" : "OTHER"
+      }
+    } ],
+    "id" : "37",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#MarketingType",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Vermarktungsart",
+      "IRI-based" : "MarketingType"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#SALE",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Verkauf",
+        "IRI-based" : "SALE"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#RENT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Miete",
+        "IRI-based" : "RENT"
+      }
+    } ],
+    "id" : "41",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#Address",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Adresse",
+      "IRI-based" : "Address"
+    },
+    "id" : "77",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#EnergyPassType",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Energieausweistyp",
+      "IRI-based" : "EnergyPassType"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#DEMAND",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Bedarfsausweis",
+        "IRI-based" : "DEMAND"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#CONSUMPTION",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Verbrauchsausweis",
+        "IRI-based" : "CONSUMPTION"
+      }
+    } ],
+    "id" : "25",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#Feature",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Eigenschaft",
+      "IRI-based" : "Feature"
+    },
+    "subClasses" : [ "35", "45" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#TenantGuidelines",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Richtlinien für Mieter",
+      "IRI-based" : "TenantGuidelines"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#NOT_ALLOWED",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "nicht erlaubt",
+        "IRI-based" : "NOT_ALLOWED"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#AGREEMENT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "nach Vereinbarung",
+        "IRI-based" : "AGREEMENT"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#ALLOWED",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "erlaubt",
+        "IRI-based" : "ALLOWED"
+      }
+    } ],
+    "id" : "5",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#EquipmentCondition",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Zustand der Inneneinrichtung",
+      "IRI-based" : "EquipmentCondition"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#SIMPLE",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "einfach",
+        "IRI-based" : "SIMPLE"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#NORMAL",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "normal",
+        "IRI-based" : "NORMAL"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#UPPER",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "gehoben",
+        "IRI-based" : "UPPER"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#LUXARY",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "luxuriös",
+        "IRI-based" : "LUXARY"
+      }
+    } ],
+    "id" : "19",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#AbstractFeature",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Abstrakte Eigenschaft",
+      "IRI-based" : "AbstractFeature"
+    },
+    "subClasses" : [ "27", "19", "17", "77", "55", "23", "4", "25", "5", "21" ],
+    "id" : "35",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#EnergyCarrier",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Energieträger",
+      "IRI-based" : "EnergyCarrier"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#ALTERNATIVE",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Alternativ",
+        "IRI-based" : "ALTERNATIVE"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#DISTRICT_HEATING",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Fernwärme",
+        "IRI-based" : "DISTRICT_HEATING"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#GAS",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Gas",
+        "IRI-based" : "GAS"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#PELLET",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Pellet",
+        "IRI-based" : "PELLET"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#ELECTRIC",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Elektro",
+        "IRI-based" : "ELECTRIC"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#GEOTHERMICS",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Erdwärme",
+        "IRI-based" : "GEOTHERMICS"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#ELETRICITY",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Strom",
+        "IRI-based" : "ELETRICITY"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#CARBON",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Kohle",
+        "IRI-based" : "CARBON"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#HEATPUMP",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Luft/Wasser Wärmepumpe",
+        "IRI-based" : "HEATPUMP"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#HOTWATER",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "ergänzendes dezentrales Warmwasser",
+        "IRI-based" : "HOTWATER"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#SOLAR",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Solar",
+        "IRI-based" : "SOLAR"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#COGENERATIONUNIT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Blockheizkraftwerk",
+        "IRI-based" : "COGENERATIONUNIT"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#OIL",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Öl",
+        "IRI-based" : "OIL"
+      }
+    } ],
+    "id" : "4",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#RealEstate",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Immobilie",
+      "IRI-based" : "RealEstate"
+    },
+    "id" : "123"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "105",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "126",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#CarSpace",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Stellplatz",
+      "IRI-based" : "CarSpace"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#GARAGE",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Garage",
+        "IRI-based" : "GARAGE"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#DUPLEX",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Duplex-Garage",
+        "IRI-based" : "DUPLEX"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#OUTSIDE",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Außenstellplatz",
+        "IRI-based" : "OUTSIDE"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#NOT_SPECIFIED",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "nicht spezifiziert",
+        "IRI-based" : "NOT_SPECIFIED"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#CARPORT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Carport",
+        "IRI-based" : "CARPORT"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#CARPARK",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Parkhaus",
+        "IRI-based" : "CARPARK"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#UNDERGROUND",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Tiefgarage",
+        "IRI-based" : "UNDERGROUND"
+      }
+    } ],
+    "id" : "44",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#Type",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Fixe Werte",
+      "IRI-based" : "Type"
+    },
+    "subClasses" : [ "33", "12", "37", "41" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "130",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "108",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#PhysicalFeature",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Physische Eigenschaft",
+      "IRI-based" : "PhysicalFeature"
+    },
+    "subClasses" : [ "44" ],
+    "id" : "45",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "164",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "142",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "169",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "94",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#HeatingType",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Heizungstyp",
+      "IRI-based" : "HeatingType"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#STOVE",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Ofenheizung",
+        "IRI-based" : "STOVE"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#CENTRAL",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Zentralheizung",
+        "IRI-based" : "CENTRAL"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#SELF_CONTAINED",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Etagenheizung",
+        "IRI-based" : "SELF_CONTAINED"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#UNDERFLOOR",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Fußbodenheizung",
+        "IRI-based" : "UNDERFLOOR"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#DISTRICT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Fernwärme",
+        "IRI-based" : "DISTRICT"
+      }
+    } ],
+    "id" : "17",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "133",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "119",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#CaretakerContact",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Ansprechpartner",
+      "IRI-based" : "CaretakerContact"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#CARETAKER",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Hausmeister",
+        "IRI-based" : "CARETAKER"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#OLD_TENANT",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Altmieter",
+        "IRI-based" : "OLD_TENANT"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#COMPANY",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "Firma",
+        "IRI-based" : "COMPANY"
+      }
+    } ],
+    "id" : "55",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "72",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "99",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "1",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#EnergyEfficiencyClass",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "instances" : 0,
+    "label" : {
+      "de" : "Energieeffizienz",
+      "IRI-based" : "EnergyEfficiencyClass"
+    },
+    "individuals" : [ {
+      "iri" : "https://www.w3id.org/def/reo#E",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "E",
+        "IRI-based" : "E"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#F",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "F",
+        "IRI-based" : "F"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#C",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "C",
+        "IRI-based" : "C"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#D",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "D",
+        "IRI-based" : "D"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#G",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "G",
+        "IRI-based" : "G"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#H",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "H",
+        "IRI-based" : "H"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#A_PLUS",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "A+",
+        "IRI-based" : "A_PLUS"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#A",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "A",
+        "IRI-based" : "A"
+      }
+    }, {
+      "iri" : "https://www.w3id.org/def/reo#B",
+      "baseIri" : "https://www.w3id.org/def/reo",
+      "labels" : {
+        "de" : "B",
+        "IRI-based" : "B"
+      }
+    } ],
+    "id" : "21",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "6",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "18",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "20",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "22",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "24",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "26",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "28",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "29",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "30",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "31",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "56",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "57",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "58",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "59",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "60",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "61",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "65",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "69",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "70",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "79",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "83",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "84",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "85",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "92",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "107",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "112",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "113",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "114",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "115",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "116",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "117",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "118",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "122",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "135",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "140",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "144",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "146",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "147",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "156",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "157",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "158",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "159",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "160",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "161",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "162",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "163",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "166",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "167",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "170",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "172",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://www.w3id.org/def/reo#cat",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Katze",
+      "IRI-based" : "cat"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#numberOfBedrooms",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "7",
+    "label" : {
+      "de" : "Anzahl der Schlafzimmer",
+      "IRI-based" : "numberOfBedrooms"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#marketingType",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Vermarktungsart",
+      "IRI-based" : "marketingType"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#apartmentType",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Apartmenttyp",
+      "IRI-based" : "apartmentType"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#numberOfRooms",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "11",
+    "label" : {
+      "de" : "Anzahl der Zimmer",
+      "IRI-based" : "numberOfRooms"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#title",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "15",
+    "label" : {
+      "de" : "Titel",
+      "IRI-based" : "title"
+    },
+    "cardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "14"
+  }, {
+    "range" : "17",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "19",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "21",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "5",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "25",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "27",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "25",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "27",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "17",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "19",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "13",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "13",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#modernizationYear",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "39",
+    "label" : {
+      "de" : "Jahr der Modernisierung",
+      "IRI-based" : "modernizationYear"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "38"
+  }, {
+    "range" : "13",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#smoking",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Rauchen",
+      "IRI-based" : "smoking"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "42"
+  }, {
+    "range" : "45",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#countryCode",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "47",
+    "label" : {
+      "de" : "Ländercode",
+      "IRI-based" : "countryCode"
+    },
+    "cardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#additionalCost",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "49",
+    "label" : {
+      "de" : "Nebenkosten",
+      "IRI-based" : "additionalCost"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "48"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#numberOfBathrooms",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "51",
+    "label" : {
+      "de" : "Anzahl der Badezimmer",
+      "IRI-based" : "numberOfBathrooms"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#otherPet",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "anderes Haustier",
+      "IRI-based" : "otherPet"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "52"
+  }, {
+    "range" : "4",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "5",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "21",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "25",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "27",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "17",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "19",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "range" : "23",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "35",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "35",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "21",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "4",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "35",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "35",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "12",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#heatingType",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "17",
+    "label" : {
+      "de" : "Heizungstyp",
+      "IRI-based" : "heatingType"
+    },
+    "domain" : "27",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "69"
+  }, {
+    "range" : "12",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#heatingCost",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "72",
+    "label" : {
+      "de" : "Heizkosten",
+      "IRI-based" : "heatingCost"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#cost",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "74",
+    "label" : {
+      "de" : "Kosten",
+      "IRI-based" : "cost"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "73"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#hasWashingMachineConnection",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "76",
+    "label" : {
+      "de" : "hat Waschmaschinenanschluss",
+      "IRI-based" : "hasWashingMachineConnection"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "75"
+  }, {
+    "range" : "33",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "41",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#maxHouseholdPersons",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "81",
+    "label" : {
+      "de" : "maximale Anzahl der Personen im Haushalt",
+      "IRI-based" : "maxHouseholdPersons"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "80"
+  }, {
+    "range" : "33",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "12",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "17",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "5",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#hasCellar",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "88",
+    "label" : {
+      "de" : "hat Keller",
+      "IRI-based" : "hasCellar"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#hasGarden",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "90",
+    "label" : {
+      "de" : "hat Garten",
+      "IRI-based" : "hasGarden"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "89"
+  }, {
+    "range" : "5",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "5",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#carspaceCost",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "94",
+    "label" : {
+      "de" : "Kosten für Stellplatz",
+      "IRI-based" : "carspaceCost"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "93"
+  }, {
+    "range" : "17",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#condition",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Zustand",
+      "IRI-based" : "condition"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "96"
+  }, {
+    "range" : "19",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#street",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "99",
+    "label" : {
+      "de" : "Straße",
+      "IRI-based" : "street"
+    },
+    "cardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "98"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#zipCode",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "101",
+    "label" : {
+      "de" : "Postleitzahl",
+      "IRI-based" : "zipCode"
+    },
+    "cardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "100"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#floor",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "103",
+    "label" : {
+      "de" : "Stockwerk",
+      "IRI-based" : "floor"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "102"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#livingSpace",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "105",
+    "label" : {
+      "de" : "Wohnfläche",
+      "IRI-based" : "livingSpace"
+    },
+    "cardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "104"
+  }, {
+    "range" : "5",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#constructionYear",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "108",
+    "label" : {
+      "de" : "Baujahr",
+      "IRI-based" : "constructionYear"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "109"
+  }, {
+    "range" : "25",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "5",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "17",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "113"
+  }, {
+    "range" : "19",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "25",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "range" : "27",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "116"
+  }, {
+    "range" : "17",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#bail",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "119",
+    "label" : {
+      "de" : "Kaution",
+      "IRI-based" : "bail"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "118"
+  }, {
+    "range" : "19",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#usageType",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Nutzungsart",
+      "IRI-based" : "usageType"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "122"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#floorCount",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "125",
+    "label" : {
+      "de" : "Anzahl der Stockwerke",
+      "IRI-based" : "floorCount"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "124"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#equipmentCondition",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Zustand der Inneneinrichtung",
+      "IRI-based" : "equipmentCondition"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "127"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#city",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "130",
+    "label" : {
+      "de" : "Stadt",
+      "IRI-based" : "city"
+    },
+    "cardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "129"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#realEstateType",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Immobilientyp",
+      "IRI-based" : "realEstateType"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "131"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#purchasePrice",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "133",
+    "label" : {
+      "de" : "Kaufpreis",
+      "IRI-based" : "purchasePrice"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "132"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#energyPass",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Energieausweis",
+      "IRI-based" : "energyPass"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "134"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#livingCommunity",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Wohngemeinschaft",
+      "IRI-based" : "livingCommunity"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "135"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#address",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Adresse",
+      "IRI-based" : "address"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "136"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#tenantGuidelines",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "tenantGuidelines",
+      "undefined" : "Richtlinien für Mieter"
+    },
+    "domain" : "123",
+    "subproperty" : [ "0", "138", "42", "135", "139", "52" ],
+    "attributes" : [ "object", "someValues" ],
+    "id" : "137"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#energypassType",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Energieausweistyp",
+      "IRI-based" : "energypassType"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "140"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#numberOf",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "142",
+    "label" : {
+      "de" : "Anzahl",
+      "IRI-based" : "numberOf"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "141"
+  }, {
+    "range" : "123",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#energyEfficiencyClass",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Energieeffizienzklasse",
+      "IRI-based" : "energyEfficiencyClass"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "144"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#energyCarrier",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "4",
+    "label" : {
+      "de" : "Energieträger",
+      "IRI-based" : "energyCarrier"
+    },
+    "domain" : "27",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "145"
+  }, {
+    "range" : "13",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "range" : "13",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "35",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "35",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "35",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "35",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "86",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "35",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "35",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "23",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "4",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "21",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "27",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "25",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "19",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "17",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "5",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#year",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "164",
+    "label" : {
+      "de" : "Jahr",
+      "IRI-based" : "year"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "163"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#commercialUse",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "kommerzielle Nutzung",
+      "IRI-based" : "commercialUse"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "138"
+  }, {
+    "range" : "45",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "55",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#hasFittedKitchen",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "126",
+    "label" : {
+      "de" : "hat Einbauküche",
+      "IRI-based" : "hasFittedKitchen"
+    },
+    "maxCardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "167"
+  }, {
+    "range" : "86",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#dog",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "1",
+    "label" : {
+      "de" : "Hund",
+      "IRI-based" : "dog"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "139"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#netRent",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "169",
+    "label" : {
+      "de" : "Nettokaltmiete",
+      "IRI-based" : "netRent"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "170"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#numberOfCarSpaces",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "121",
+    "label" : {
+      "de" : "Anzahl der Stellplätze",
+      "IRI-based" : "numberOfCarSpaces"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "171"
+  }, {
+    "iri" : "https://www.w3id.org/def/reo#houseNumber",
+    "baseIri" : "https://www.w3id.org/def/reo",
+    "range" : "128",
+    "label" : {
+      "de" : "Hausnummer",
+      "IRI-based" : "houseNumber"
+    },
+    "cardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "172"
+  } ]
+}
