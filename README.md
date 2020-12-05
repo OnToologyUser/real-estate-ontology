@@ -1,2 +1,2 @@
 # real-estate-ontology
-Vocabulary for describing real estate for natural language generation purposes
+Vocabulary for describing real estate to use as a base for data mapping
